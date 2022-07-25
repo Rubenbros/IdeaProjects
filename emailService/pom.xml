@@ -9,13 +9,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>rubenbros</groupId>
-    <artifactId>emailService</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>emailservice</artifactId>
+    <version>1.0.0</version>
     <name>emailService</name>
     <description>Email service API</description>
 
     <properties>
-        <java.version>18</java.version>
+        <java.version>1.8</java.version>
     </properties>
     <dependencies>
         <dependency>
