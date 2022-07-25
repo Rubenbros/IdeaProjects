@@ -9,8 +9,8 @@
     <relativePath/> <!-- lookup parent from repository -->
 </parent>
 <groupId>rubenbros</groupId>
-<artifactId>subscriptionService</artifactId>
-<version>0.0.1-SNAPSHOT</version>
+<artifactId>subscriptionservice</artifactId>
+<version>1.0.0</version>
 <name>subscriptionService</name>
 <description>Subscription service API</description>
 <properties>
