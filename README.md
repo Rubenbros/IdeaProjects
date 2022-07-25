@@ -91,3 +91,11 @@ Then it adds to the email service the generated email with all the receivers
 
 #### Send emails
 Every 30 seconds there is a call to the email service to flush the queue and send the accumulated emails
+
+## Other
+
+There is a Data initializer on the subscription service that will create some subscriptions and the users:
+
+admin:password  that has permission to use the api
+
+user:password  that doesn't.
