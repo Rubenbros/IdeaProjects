@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>rubenbros</groupId>
-	<artifactId>publicService</artifactId>
+	<artifactId>publicservice</artifactId>
 	<version>1.0.0</version>
 	<name>publicService</name>
 	<description>Public Service for subscriptions</description>
