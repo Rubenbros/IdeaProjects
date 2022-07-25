@@ -29,14 +29,14 @@ public class DataInitializer implements CommandLineRunner {
     @Override
     public void run(String... args) {
 
-        if(this.users.findByUsername("user").isEmpty())
+        if(this.users.findByUsername("user") == null)
             this.users.save(User.builder()
                 .username("user")
                 .password(this.passwordEncoder.encode("password"))
                 .roles(Arrays.asList("ROLE_USER"))
                 .build()
             );
-        if(this.users.findByUsername("admin").isEmpty())
+        if(this.users.findByUsername("admin") == null)
             this.users.save(User.builder()
                     .username("admin")
                     .password(this.passwordEncoder.encode("password"))
