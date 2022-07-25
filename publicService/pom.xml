@@ -10,11 +10,11 @@
 	</parent>
 	<groupId>rubenbros</groupId>
 	<artifactId>publicService</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>publicService</name>
 	<description>Public Service for subscriptions</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
